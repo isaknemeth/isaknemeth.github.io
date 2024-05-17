@@ -1,0 +1,61 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        color: white;
+        background-color:  black;
+    }
+}
+   
+   @media (prefers-color-scheme: light) {
+    gitbody {
+        color: black;
+        background-color:  white;
+    }
+   }
+
+
+
+body {
+    width : 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+.header {
+    text-align: center;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+p {
+    margin: 0;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #181825;
+    text-align: center;
+}
+  
+a:hover {
+    color: #2a7ae2;
+    text-decoration: underline;
+}
+
+
+h3 {
+
+    margin: 10px 0 0 0;
+    padding: 0;
+}
